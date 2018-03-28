@@ -29,7 +29,7 @@ module HerokuDeflater
         end
       end
 
-      body.close if body.respond_to?(:close)
+      # body.close if body.respond_to?(:close)
       [status, headers, body]
     end
   end
